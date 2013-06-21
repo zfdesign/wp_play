@@ -1,0 +1,185 @@
+/*
+LAYOUT: One-Column (Right) Fluid
+DESCRIPTION: Two-column fluid layout with one sidebar right of content
+*/
+
+/* GRID 
+-------------------------------------------------------------- */
+body {
+    min-width: 300px;
+}
+
+#header {
+    position:relative;
+}
+#branding {
+    /*width:940px;*/
+    max-width: 60%;
+}
+#access {
+    position:relative;
+    overflow:hidden;
+}
+.menu {
+    /*width:940px;*/
+    width: 94%;
+    margin:0 auto;
+}
+
+
+#main {
+    /*width:960px;*/
+    width: 96%;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+
+#container {
+    /*width:620px;*/
+    width: 64%;
+    float:left;
+}
+#content {
+    margin:0 0 0 10px;
+    /*width:540px;*/
+    overflow:hidden;
+}
+.main-aside {
+    min-width:300px;
+    max-width: 30%;
+    float:right;
+    position:relative;
+    right:10px;
+}
+#secondary {
+    clear:right;
+}
+
+
+#footer { 
+    clear:both;
+}
+
+
+#subsidiary {
+    /*width:940px;*/
+    width: 94%;
+    margin:0 auto;
+    overflow:hidden;
+}
+#subsidiary .aside {
+    /*width:300px;*/
+    width: 30%;
+    float:left;
+    margin:0 20px 0 0;
+}
+#subsidiary #third {
+    margin:0;
+}
+#siteinfo {
+    clear:both;
+    /*width:940px;*/
+    width: 94%;
+    margin:0 auto;
+}
+
+/* =Page Templates
+-------------------------------------------------------------- */
+
+/*
+    Full Width Template
+*/
+
+.page-template-template-page-fullwidth-php #container {
+	margin:0;
+	/*width:940px;*/
+    width: 94%;
+}
+
+.page-template-template-page-fullwidth-php #content {
+	margin: 0 0 0 10px;
+	/*width:940px;*/
+    width: 94%;
+}
+
+.page-template-template-page-fullwidth-php #comments {
+    /*width:540px;*/
+    width: 54%;
+}
+
+
+/*
+    HOMEPAGE Child Template - FULL WIDTH
+-------------------------------------------------------------- */
+
+.home #container {
+	margin:0;
+	/*width:940px;*/
+}
+
+.home #content {
+	margin: 0 0 0 10px;
+	/*width:940px;*/
+}
+
+.home #comments {
+    /*width:540px;*/
+}
+
+
+
+
+
+/* #wrapper
+-------------------------------------------------------------- */
+#wrapper {
+    width: 96%;
+    margin:  0 auto;
+}
+
+
+#header, #main, #footer {
+    padding: 1em 10px;
+}
+
+#header {
+    padding-bottom: 0;
+}
+
+
+
+/* MEDIA QUERIES for responsive designs 
+-------------------------------------------------------------- */
+
+@media only screen and (max-device-width: 480px) {
+
+}
+
+@media only screen and (max-width: 600px), screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+/* iPad and alikes */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 980px) {
+    
+    /* #wrapper
+    -------------------------------------------------------------- */
+    #wrapper {
+        max-width: 980px;
+    }
+
+}
+
+
+
